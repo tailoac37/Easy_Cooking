@@ -86,7 +86,7 @@ export default function ChatWidget() {
                 >
                     {/* Header */}
                     <div className="bg-orange-500 text-white p-3 font-semibold flex justify-between">
-                        <span>EasyCooking AI</span>
+                        <span>Bếp Việt AI</span>
                         <button onClick={() => setOpen(false)}>✖</button>
                     </div>
 
@@ -100,11 +100,10 @@ export default function ChatWidget() {
                                 {/* Text bubble */}
                                 {msg.text && (
                                     <div
-                                        className={`p-3 max-w-[85%] rounded-xl text-sm ${
-                                            msg.from === "user"
+                                        className={`p-3 max-w-[85%] rounded-xl text-sm ${msg.from === "user"
                                                 ? "bg-orange-100 ml-auto"
                                                 : "bg-white shadow-sm mr-auto"
-                                        }`}
+                                            }`}
                                     >
                                         {msg.text}
                                     </div>

@@ -12,9 +12,9 @@ export const Footer = () => {
           {/* Left Side: Logo + text */}
           <div className="md:w-1/2">
             <img
-              src="/logoEasyCooking.png"
+              src="/logoBepViet.png"
               alt="Tastebite Logo"
-              className="w-[100px] mb-4"
+              className="w-[150px] mb-4"
             />
             <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
               "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment"
@@ -25,7 +25,7 @@ export const Footer = () => {
           <div className="flex flex-wrap gap-10 md:gap-[80px] text-sm text-gray-600">
             {/* Column 1 */}
             <div>
-              <h4 className="font-semibold text-black mb-3">Easy Cooking</h4>
+              <h4 className="font-semibold text-black mb-3">Bếp Việt</h4>
               <ul className="space-y-2">
                 <li><Link href="/about-us" className="hover:text-black transition">About us</Link></li>
                 <li><Link href="/careers" className="hover:text-black transition">Careers</Link></li>
@@ -63,7 +63,7 @@ export const Footer = () => {
 
         {/* --- Bottom Section --- */}
         <div className="flex flex-col md:flex-row items-center justify-between text-sm text-gray-500 gap-4">
-          <p>© 2025 Easy Cooking – All rights reserved</p>
+          <p>© 2025 Bếp Việt – All rights reserved</p>
 
           {/* Social icons */}
           <div className="flex items-center gap-6 text-[18px] text-gray-600">

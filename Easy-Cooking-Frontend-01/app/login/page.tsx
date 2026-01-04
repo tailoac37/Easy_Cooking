@@ -51,7 +51,7 @@ export default function LoginPage() {
         {/* Header */}
         <div className="text-center mb-6">
           <div className="text-5xl mb-3">🍳</div>
-          <h1 className="text-2xl font-bold text-[#003459]">Easy Cooking</h1>
+          <h1 className="text-2xl font-bold text-[#003459]">Bếp Việt</h1>
           <p className="text-gray-500 text-sm mt-1">Đăng nhập vào tài khoản</p>
         </div>
 

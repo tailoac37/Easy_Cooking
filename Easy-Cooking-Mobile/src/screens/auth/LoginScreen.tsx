@@ -44,7 +44,7 @@ export default function LoginScreen({ navigation }: any) {
                 <ScrollView contentContainerStyle={styles.scrollContent}>
                     <View style={styles.formContainer}>
                         <Text style={styles.logo}>🍳</Text>
-                        <Text style={styles.title}>Easy Cooking</Text>
+                        <Text style={styles.title}>Bếp Việt</Text>
                         <Text style={styles.subtitle}>Đăng nhập vào tài khoản</Text>
 
                         {error ? (

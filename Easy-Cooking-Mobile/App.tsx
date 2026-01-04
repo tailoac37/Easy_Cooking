@@ -113,7 +113,7 @@ function LoginScreen() {
         <ScrollView contentContainerStyle={styles.authScroll}>
           <View style={styles.authForm}>
             <Text style={styles.logo}>🍳</Text>
-            <Text style={styles.title}>Easy Cooking</Text>
+            <Text style={styles.title}>Bếp Việt</Text>
             <Text style={styles.subtitle}>Đăng nhập vào tài khoản</Text>
 
             {error ? <View style={styles.errorBox}><Text style={styles.errorText}>{error}</Text></View> : null}
@@ -186,7 +186,7 @@ function RegisterScreen() {
         <ScrollView contentContainerStyle={styles.authScroll}>
           <View style={styles.authForm}>
             <Text style={styles.logo}>🍳</Text>
-            <Text style={styles.title}>Easy Cooking</Text>
+            <Text style={styles.title}>Bếp Việt</Text>
             <Text style={styles.subtitle}>Tạo tài khoản mới</Text>
 
             {error ? <View style={styles.errorBox}><Text style={styles.errorText}>{error}</Text></View> : null}
@@ -276,7 +276,7 @@ function ForgotPasswordScreen() {
       <ScrollView contentContainerStyle={styles.authScroll}>
         <View style={styles.authForm}>
           <Text style={styles.logo}>🍳</Text>
-          <Text style={styles.title}>Easy Cooking</Text>
+          <Text style={styles.title}>Bếp Việt</Text>
           <Text style={styles.subtitle}>
             {step === 1 && 'Khôi phục mật khẩu'}
             {step === 2 && 'Nhập mã OTP'}
@@ -555,7 +555,7 @@ function HomeScreen() {
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <View>
               <Text style={{ color: 'rgba(255,255,255,0.8)', fontSize: 15 }}>Xin chào! 👋</Text>
-              <Text style={{ color: '#FFF', fontSize: 24, fontWeight: 'bold', marginTop: 4 }}>Easy Cooking</Text>
+              <Text style={{ color: '#FFF', fontSize: 24, fontWeight: 'bold', marginTop: 4 }}>Bếp Việt</Text>
             </View>
             {!showSearch && (
               <View style={{ flexDirection: 'row' }}>
@@ -2426,7 +2426,7 @@ function MainApp() {
             <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'flex-end' }}>
               <View style={{ backgroundColor: '#F4F6F8', height: '85%', borderTopLeftRadius: 20, borderTopRightRadius: 20, overflow: 'hidden' }}>
                 <View style={{ flexDirection: 'row', alignItems: 'center', padding: 16, backgroundColor: '#FF9800' }}>
-                  <Text style={{ flex: 1, color: '#FFF', fontSize: 18, fontWeight: 'bold' }}>EasyCooking AI</Text>
+                  <Text style={{ flex: 1, color: '#FFF', fontSize: 18, fontWeight: 'bold' }}>Bếp Việt AI</Text>
                   <TouchableOpacity onPress={() => setShowChat(false)}>
                     <Ionicons name="close" size={24} color="#FFF" />
                   </TouchableOpacity>

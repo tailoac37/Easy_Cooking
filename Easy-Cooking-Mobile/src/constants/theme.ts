@@ -1,4 +1,4 @@
-// Theme colors matching Easy Cooking website
+// Theme colors matching Bếp Việt website
 export const Colors = {
     primary: '#003459',      // Main navy blue
     primaryDark: '#00171F',  // Dark navy

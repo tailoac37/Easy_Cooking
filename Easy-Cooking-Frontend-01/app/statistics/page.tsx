@@ -172,7 +172,7 @@ export default function StatisticsPage() {
       <div>
         <h1 className="text-3xl font-bold text-gray-900">Trung tâm thống kê</h1>
         <p className="text-gray-500 mt-1">
-          Tổng quan hiệu suất hoạt động cá nhân trên EasyCooking.
+          Tổng quan hiệu suất hoạt động cá nhân trên Bếp Việt.
         </p>
       </div>
 

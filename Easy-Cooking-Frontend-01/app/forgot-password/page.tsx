@@ -170,7 +170,7 @@ export default function ForgotPasswordPage() {
                 {/* Header */}
                 <div className="text-center mb-6">
                     <div className="text-5xl mb-3">🍳</div>
-                    <h1 className="text-2xl font-bold text-[#003459]">Easy Cooking</h1>
+                    <h1 className="text-2xl font-bold text-[#003459]">Bếp Việt</h1>
                     <p className="text-gray-500 text-sm mt-1">
                         {step === 'email' && 'Khôi phục mật khẩu'}
                         {step === 'otp' && 'Xác thực mã OTP'}
@@ -185,11 +185,11 @@ export default function ForgotPasswordPage() {
                         <div
                             key={s}
                             className={`w-3 h-3 rounded-full transition-all ${step === s ||
-                                    (step === 'otp' && i === 0) ||
-                                    (step === 'password' && i <= 1) ||
-                                    step === 'success'
-                                    ? 'bg-[#003459]'
-                                    : 'bg-gray-200'
+                                (step === 'otp' && i === 0) ||
+                                (step === 'password' && i <= 1) ||
+                                step === 'success'
+                                ? 'bg-[#003459]'
+                                : 'bg-gray-200'
                                 }`}
                         />
                     ))}

@@ -38,9 +38,9 @@ export const Header = () => {
             {/* LOGO */}
             <Link href="/">
               <img
-                src="/logoEasyCooking.png"
+                src="/logoBepViet.png"
                 alt="logo"
-                className="w-[100px] cursor-pointer"
+                className="w-[150px] cursor-pointer"
               />
             </Link>
 
@@ -123,9 +123,12 @@ export const Header = () => {
                   <div className="relative w-10 h-10 flex items-center justify-center" ref={userMenuRef}>
                     <button onClick={() => setIsUserMenuOpen(p => !p)}>
                       <img
-                        src={user.avatarUrl}
+                        src={user.avatarUrl || '/default-avatar.png'}
                         alt="Avatar"
-                        className="w-10 h-10 rounded-full object-cover border border-gray-200"
+                        className="w-10 h-10 rounded-full object-cover border border-gray-200 bg-gray-100"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = '/default-avatar.png';
+                        }}
                       />
                     </button>
 
