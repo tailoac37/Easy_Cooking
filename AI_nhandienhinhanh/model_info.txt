@@ -1,0 +1,37 @@
+⏳ Đang tải model food_yolo (1).pt để kiểm tra...
+
+✅ Model tải thành công!
+
+📊 Tổng số món ăn (classes) nhận diện được: 29
+------------------------------
+  0: Tomato
+  1: Carrot
+  2: Cabbage
+  3: Cucumber
+  4: Potato
+  5: Pumpkin
+  6: Mushroom
+  7: Broccoli
+  8: Bell pepper
+  9: Zucchini
+  10: Apple
+  11: Banana
+  12: Orange
+  13: Lemon
+  14: Strawberry
+  15: Watermelon
+  16: Grape
+  17: Mango
+  18: Pineapple
+  19: Pomegranate
+  20: Chicken
+  21: Fish
+  22: Shrimp
+  23: Crab
+  24: Lobster
+  25: Egg
+  26: Cheese
+  27: Bread
+  28: Milk
+------------------------------
+ℹ️ Nhận xét: File model có vẻ hợp lệ và đọc được metadata.
